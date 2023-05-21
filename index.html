@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
 </head>
 
 <body>
@@ -18,7 +21,7 @@
             <img src="./src/images/pokeball.png" alt="Pokebola" class="logo">
         </a>
         <button id="botao-alterar-tema">
-            <img src="./src/images/sun.png" alt="Imagem do sol" class="imagem do sol">
+            <img src="./src/images/sun.png" alt="Imagem do sol" class="imagem-botao">
         </button>
     </header>
     <main>
@@ -31,13 +34,13 @@
 
                 <img src="./src/images/bulbasaur.gif" alt="Bulbasaur" class="gif">
 
-                <ul>
-                    <li class="tipo-grama">Grama</li>
-                    <li class="tipo-veneno">Veneno</li>
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
                 </ul>
 
-                <p>Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce
-                    lentamente.</p>
+                <p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce
+                lentamente.</p>
             </li>
 
             <li class="cartao-pokemon">
@@ -48,12 +51,12 @@
 
                 <img src="./src/images/ivysaur.gif" alt="Ivysaur" class="gif">
 
-                <ul>
-                    <li class="tipo-grama">Grama</li>
-                    <li class="tipo-veneno">Veneno</li>
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
                 </ul>
 
-                <p>Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé sias patas traseiras.
+                <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé sias patas traseiras.
                 </p>
             </li>
 
@@ -65,12 +68,12 @@
 
                 <img src="./src/images/venusaur.gif" alt="Venusaur" class="gif">
 
-                <ul>
-                    <li class="tipo-grama">Grama</li>
-                    <li class="tipo-veneno">Veneno</li>
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
                 </ul>
 
-                <p>Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a
+                <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a
                     luz solar.</p>
             </li>
 
@@ -82,11 +85,11 @@
 
                 <img src="./src/images/charmander.gif" alt="Charmander" class="gif">
 
-                <ul>
-                    <li class="tipo-fogo">Fogo</li>
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
                 </ul>
 
-                <p>Tem preferencias por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.
+                <p class="descricao">Tem preferencias por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.
                 </p>
             </li>
 
@@ -98,11 +101,11 @@
 
                 <img src="./src/images/charmeleon.gif" alt="Charmeleon" class="gif">
 
-                <ul>
-                    <li class="tipo-fogo">Fogo</li>
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
                     sapiente esse officia facilis soluta neque inventore excepturi aspernatur, placeat enim accusantium
                     id animi repellat est commodi.</p>
             </li>
@@ -116,11 +119,11 @@
 
                 <img src="./src/images/charizard.gif" alt="Charizard" class="gif">
 
-                <ul>
-                    <li class="tipo-fogo">Fogo</li>
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
                     sapiente esse officia facilis soluta neque inventore excepturi aspernatur, placeat enim accusantium
                     id animi repellat est commodi.</p>
             </li>
@@ -134,11 +137,11 @@
 
                 <img src="./src/images/squirtle.gif" alt="Squirtle" class="gif">
 
-                <ul>
-                    <li class="tipo-agua">Agua</li>
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
                     sapiente esse officia facilis soluta neque inventore excepturi aspernatur, placeat enim accusantium
                     id animi repellat est commodi.</p>
             </li>
@@ -152,11 +155,11 @@
 
                 <img src="./src/images/wartortle.gif" alt="Wartortle" class="gif">
 
-                <ul>
-                    <li class="tipo-agua">Agua</li>
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
                     sapiente esse officia facilis soluta neque inventore excepturi aspernatur, placeat enim accusantium
                     id animi repellat est commodi.</p>
             </li>
@@ -170,11 +173,11 @@
 
                 <img src="./src/images/blastoise.gif" alt="Blastoise" class="gif">
 
-                <ul>
-                    <li class="tipo-agua">Agua/li>
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
                     sapiente esse officia facilis soluta neque inventore excepturi aspernatur, placeat enim accusantium
                     id animi repellat est commodi.</p>
             </li>
@@ -188,11 +191,11 @@
 
                 <img src="./src/images/caterpie.gif" alt="Caterpie" class="gif">
 
-                <ul>
-                    <li class="tipo-inseto">Inseto</li>
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
                 </ul>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum voluptatem voluptatibus impedit,
                     sapiente esse officia facilis soluta neque inventore excepturi aspernatur, placeat enim accusantium
                     id animi repellat est commodi.</p>
             </li>
